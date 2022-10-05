@@ -1,0 +1,16 @@
+{
+    "name": "matheodj/framework",
+    "description": "Création d'un framerwork fait à but d´apprentissage de la programmation orientée objet en php",
+    "autoload": {
+        "psr-4": {
+            "Matheodj\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristhian LOPEZ MOSCOSO",
+            "email": "matheodj.09@gmail.com"
+        }
+    ],
+    "require": {}
+}
