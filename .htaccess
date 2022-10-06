@@ -1,0 +1,7 @@
+# Activation de la configuration 
+#pour la configuration du serveur Apache
+RewriteEngine on 
+
+    #Si le dossier 'framework' est chargé dans le navigateur,
+    #redirige automatiquement l´utilisateur dans le dossier public.
+    RewriteRule ^(.*)$ public/
