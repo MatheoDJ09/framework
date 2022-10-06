@@ -3,7 +3,7 @@
     "description": "Création d'un framerwork fait à but d´apprentissage de la programmation orientée objet en php",
     "autoload": {
         "psr-4": {
-            "Matheodj\\Framework\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -13,7 +13,9 @@
         }
     ],
     "require": {
-        "vlucas/phpdotenv": "^5.4"
+        "vlucas/phpdotenv": "^5.4",
+        "php-di/php-di": "^6.0",
+        "symfony/http-foundation": "^4.4"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.4"
