@@ -11,7 +11,7 @@ Interface RouterInterface
  */
 
 {
-    public function sortRoutesByName($controllers) : void; 
+    public function sortRoutesByName(array $controllers) : void; 
     
         /**
          * Cette méthode du routeur permet de l'exécuter
