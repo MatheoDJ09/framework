@@ -39,4 +39,6 @@
      $response = $kernel->handleRequest();
 
 
+
     // Envoi de la réponse au client
+     $response->send();
